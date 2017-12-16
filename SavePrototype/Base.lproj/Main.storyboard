@@ -226,6 +226,23 @@
             </objects>
             <point key="canvasLocation" x="-404" y="1026"/>
         </scene>
+        <!--Registration-->
+        <scene sceneID="w1E-nU-LkU">
+            <objects>
+                <viewController id="2e2-qj-580" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="010-DU-nbA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yTH-m7-cp4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Registration" id="nkm-Kp-jkD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pht-HY-YrC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-404" y="-1174"/>
+        </scene>
         <!--User-->
         <scene sceneID="GMp-jU-dyQ">
             <objects>
@@ -312,6 +329,7 @@
                     <connections>
                         <segue destination="ytr-bB-QZv" kind="relationship" relationship="viewControllers" id="LEj-Fq-Zsl"/>
                         <segue destination="RUK-K4-uSv" kind="relationship" relationship="viewControllers" id="m2s-Pv-OF8"/>
+                        <segue destination="2e2-qj-580" kind="relationship" relationship="viewControllers" id="DXe-X2-49f"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YRD-op-cCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
